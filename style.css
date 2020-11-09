@@ -467,11 +467,12 @@ h6 {
 
 #media ul {
       list-style: none;
-      text-decoration: none;
+      
 }
 
 #media ul li {
       display: inline-block;
+      text-decoration: none;
 }
 
 @media(max-width: 768px) {
