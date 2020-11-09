@@ -519,6 +519,7 @@ h6 {
 
 .image {
       background: url(/giphy.gif) no-repeat 50% 70%;
+      width: 100%;
 }
 
 /*--------------- contact form --------------- */
