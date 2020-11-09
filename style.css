@@ -404,6 +404,7 @@ h6 {
 .info h4 {
       font-size: 18px;
       font-weight: lighter;
+      text-decoration: none;
 }
 
 .info p {
