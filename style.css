@@ -462,6 +462,16 @@ h6 {
       background: #c4302b;
 }
 
+#lt::before {
+      display: inline-block;
+      content: '';
+      border-radius: 100%;
+      height: 4px;
+      width: 4px;
+      margin-right: 6px;
+      background: rgb(6, 243, 18);
+}
+
 #media, #address {
       text-align: right;
 }
