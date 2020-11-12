@@ -32,7 +32,7 @@
             <!--------------- navbar starts here --------------->
             <nav id="navbar">
                   <span id="brand">
-                        <a href="index.html">charly</a>
+                        <a href="index.html">charly clar</a>
                   </span>
 
                   <ul id="menu">
@@ -232,13 +232,12 @@
 
       var prevScrollpos = window.pageYOffset;
       window.onscroll = function() {
-      
-      var currentScrollpos = window.pageYOffset;
 
+      var currentScrollpos = window.pageYOffset;
       if(prevScrollpos > currentScrollpos) {
-            document.getElementsById("navbar").style.top = "0";
-      }else{
-            document.getElementsById("navbar").style.top = "-100px";
+            document.getElementById("navbar").style.top = "0";
+      } else {
+            document.getElementById("navbar").style.top = "-100px";
       }
 
       prevScrollpos = currentScrollpos;
