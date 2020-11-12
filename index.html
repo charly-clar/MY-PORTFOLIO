@@ -30,7 +30,7 @@
       <div class="wrapper">
 
             <!--------------- navbar starts here --------------->
-            <nav>
+            <nav id="navbar">
                   <span id="brand">
                         <a href="index.html">charly</a>
                   </span>
@@ -236,9 +236,9 @@
       var currentScrollpos = window.pageYOffset;
 
       if(prevScrollpos > currentScrollpos) {
-            document.getElementsByTagName("nav").style.top = "0";
+            document.getElementsById("navbar").style.top = "0";
       }else{
-            document.getElementsByTagName("nav").style.top = "-100px";
+            document.getElementsById("navbar").style.top = "-100px";
       }
 
       prevScrollpos = currentScrollpos;
