@@ -253,7 +253,7 @@ nav #menu li a:hover {
 /*--------------- scroll down icon animation --------------- */
 .scroll-down {
       position: absolute;
-      left: 50%;
+      left: 45%;
       bottom: 100px;
       display: block;
       text-align: center;
@@ -265,7 +265,7 @@ nav #menu li a:hover {
       height: 13px;
       border-bottom: 2px solid #fff;
       border-right: 2px solid #fff;
-      -webkit-transform: translate(-50%, -50%) rotate(45deg);
+      -webkit-transform: translate(-50%, 0) rotate(45deg);
       animation: fade_move_down 3s cubic-bezier(0.19, 1, 0.22, 1) infinite;
 }
 
