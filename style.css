@@ -546,8 +546,12 @@ h6 {
 }
 
 .video1{
-      background-size: cover;
-      background-position: center;
+      object-fit: cover;
+      width: 100vw;
+      height: 100vh;
+      position: absolute;
+      top: 0;
+      left: 0;
 }
 
 .image2{
