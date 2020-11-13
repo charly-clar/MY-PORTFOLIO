@@ -539,6 +539,12 @@ h6 {
       
 }
 
+.image1{
+      background: url(/3.jpg) no-repeat 50% 70%;
+      background-size: cover;
+      background-position: center;
+}
+
 .video1{
       position: relative;
       width: 50%;
