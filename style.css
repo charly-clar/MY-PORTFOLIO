@@ -545,12 +545,6 @@ h6 {
       background-position: center;
 }
 
-.video1{
-      background-image: url(/video1.mp4);
-      background-position: center center;
-      background-size: contain;
-}
-
 .image2{
       background: url(/3.jpg) no-repeat 50% 70%;
       background-size: cover;
