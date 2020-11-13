@@ -372,6 +372,12 @@ h6 {
       bottom: 0;
 }
 
+imageP1{
+      background: url(/3.jpg) no-repeat 50% 70%;
+      background-size: cover;
+      background-position: center;
+}
+
 @media(max-width: 768px) {
       .project {
             width: 90% !important;
@@ -520,6 +526,8 @@ h6 {
             margin: 0 auto;
       }
 }
+
+
 
 /*---------------about page --------------- */
 
