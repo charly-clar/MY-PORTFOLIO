@@ -25,6 +25,9 @@
       <link rel="stylesheet" href="animate.css">
       <script src="wow.min.js"></script>
 
+      <!-- parallax effects -->
+      <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.0.2/dist/simpleParallax.min.js"></script>
+
 </head>
 <body>
       <div class="wrapper">
@@ -250,6 +253,34 @@
       prevScrollpos = currentScrollpos;
 
       }
+      // nav anim next end
+
+      // parallax effects
+
+      var image = document.getElementsByClassName('project1');
+      new simpleParallax(image, {
+            scale: 1.8
+      });
+
+      var image = document.getElementsByClassName('project2');
+      new simpleParallax(image, {
+            scale: 1.6,
+            orientation: 'left'
+      });
+
+      var image = document.getElementsByClassName('project3');
+      new simpleParallax(image, {
+            scale: 1.6,
+            orientation: 'left'
+      });
+
+
+      var image = document.getElementsByClassName('project4');
+      new simpleParallax(image, {
+            scale: 1.6,
+      });
+
+      //parallax effects
 
       </script>
 </body>
