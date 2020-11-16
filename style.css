@@ -15,6 +15,10 @@ html, body {
       height: 100px;
 }
 
+.row {
+      width: 100%;
+  }
+
 @media(max-width: 768px) {
       .whitespace {
             display: none;
