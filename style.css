@@ -544,6 +544,7 @@ h6 {
       background: url(/ecommerce.jpg) no-repeat 50% 70%;
       background-size: cover;
       background-position: center;
+      scale: -1;
 }
 
 .image2{
