@@ -555,10 +555,18 @@ h6 {
 }
 
 .image2{
-      background: url(/3.jpg) no-repeat 50% 70%;
+      background: url(/ramon.jpg) no-repeat 50% 70%;
       background-size: cover;
       background-position: center;
 }
+
+.image2resp{
+      background: url(/ramon-resp.jpg) no-repeat 50% 50%;
+      background-size: cover;
+      background-position: center;
+      
+}
+
 
 .image3{
       background: url(/3.jpg) no-repeat 50% 70%;
