@@ -300,6 +300,7 @@ h6 {
 
 .project {
       height: 500px;
+      cursor: pointer;
 }
 
 .project1 {
@@ -478,6 +479,7 @@ h6 {
 
 #media, #address {
       text-align: right;
+      cursor: pointer;
 }
 
 #media ul {
@@ -572,7 +574,7 @@ h6 {
 .image3{
       background: url(/underated-resp.jpg) no-repeat 50% 70%;
       background-size: cover;
-     
+      background-position: center;
 }
 
 .image3resp{
@@ -663,6 +665,7 @@ textarea:focus {
 
 .prev, .next p {
       color: grey;
+      cursor: pointer;
 }
 
 .prev p {
