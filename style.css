@@ -569,7 +569,13 @@ h6 {
 
 
 .image3{
-      background: url(/3.jpg) no-repeat 50% 70%;
+      background: url(/underated.jpg) no-repeat 50% 70%;
+      background-size: cover;
+      background-position: center;
+}
+
+.image3resp{
+      background: url(/underated-resp.jpg) no-repeat 50% 70%;
       background-size: cover;
       background-position: center;
 }
