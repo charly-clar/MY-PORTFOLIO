@@ -305,7 +305,7 @@ h6 {
 .project1 {
       background: url(/5.jpg) no-repeat 50% 50%;
       background-size: cover;
-      cursor: pointer;
+    
 }
 
 .project1::after {
@@ -324,7 +324,7 @@ h6 {
 .project2 {
       background: url(https://images.unsplash.com/photo-1468870045442-e7d799d8c98a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2448&q=80) no-repeat 50% 50%;
       background-size: cover;
-      cursor: pointer;
+    
 }
 
 .project2::after {
@@ -343,7 +343,7 @@ h6 {
 .project3 {
       background: url(/4.jpg) no-repeat 50% 50%;
       background-size: cover;
-      cursor: pointer;
+     
 }
 
 .project3::after {
@@ -362,7 +362,7 @@ h6 {
 .project4 {
       background: url(/3.jpg) no-repeat 50% 50%;
       background-size: cover;
-      cursor: pointer;
+     
 }
 
 .project4::after {
@@ -672,10 +672,8 @@ textarea:focus {
 
 .prev p {
       text-align: left;
-      cursor: pointer;
 }
 
 .next p {
       text-align: right;
-      cursor: pointer;
 }
