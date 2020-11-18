@@ -549,8 +549,12 @@ h6 {
 .image1{
       background-size: cover;
       background-position: center;
-      width: 20%;
       
+      
+}
+
+img{
+      width: 20%;
 }
 
 .image1resp{
