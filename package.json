@@ -1,0 +1,22 @@
+{
+  "name": "my-portfolio",
+  "version": "1.0.0",
+  "description": "This my portfolio",
+  "main": "t.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/charly-clar/MY-PORTFOLIO.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/charly-clar/MY-PORTFOLIO/issues"
+  },
+  "homepage": "https://github.com/charly-clar/MY-PORTFOLIO#readme",
+  "dependencies": {
+    "jump.js": "^1.0.2"
+  }
+}
