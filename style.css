@@ -11,9 +11,22 @@ html, body {
      
 }
 
+body{
+      overflow: hidden;
+      width: 100%;
+}
+
 body::-webkit-scrollbar {
       display: none;
 } 
+
+.smooth-scroll-wrapper {
+      position: fixed;
+      z-index: 2;
+      top: 0;
+      left: 0;
+      overflow: hidden;
+  }
 
 
 .whitespace {
