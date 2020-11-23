@@ -193,6 +193,13 @@
 
       </div>
 
+
+      <a href="#header">
+            <div id="button" class="to-top">
+
+            </div>
+      </a>
+
       <!-- greensock cdn -->
       <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
 
@@ -272,6 +279,22 @@
             }
 
             smoothScroll();
+
+                   
+      // button to-top
+
+            var btn = $('#button');
+
+      $(window).scroll(function() {
+            if($(window).scrollTop() > 300) {
+                  btn.addClass("show");
+            }
+            else{
+                  btn.removeClass('show');
+            }
+      });
+
+      // button to-top end
 
 
       </script>
