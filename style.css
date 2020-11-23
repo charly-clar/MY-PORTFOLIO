@@ -698,7 +698,7 @@ textarea:focus {
 /*--------------- to top --------------- */
 
 .to-top{
-      position: fixed;
+      position: relative;
       bottom: 50px;
       right: 75px;
       border-radius: 50%;
