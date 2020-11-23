@@ -268,8 +268,8 @@ nav #menu li a:hover {
 
 /*--------------- scroll down icon animation --------------- */
 .scroll-down {
-   
-      left: 100%;
+      position: relative;
+      left: 49.5%;
       bottom: 100px;
       display: block;
       text-align: center;
