@@ -21,7 +21,6 @@ body::-webkit-scrollbar {
       width: 100%;
       position: fixed;
       z-index: 2;
-    
       overflow: hidden;
   }
 
@@ -269,7 +268,7 @@ nav #menu li a:hover {
 
 /*--------------- scroll down icon animation --------------- */
 .scroll-down {
-      position: absolute;
+   
       left: 49.5%;
       bottom: 100px;
       display: block;
