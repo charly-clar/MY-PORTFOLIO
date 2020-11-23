@@ -20,9 +20,8 @@ body::-webkit-scrollbar {
 } 
 
 .smooth-scroll-wrapper {
-      position: fixed;
+      
       z-index: 2;
-    
       overflow: hidden;
   }
 
