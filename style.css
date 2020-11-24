@@ -689,10 +689,12 @@ textarea:focus {
 
 .prev p {
       text-align: left;
+      cursor: pointer;
 }
 
 .next p {
       text-align: right;
+      cursor: pointer;
 }
 
 /*--------------- to top --------------- */
