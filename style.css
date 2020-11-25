@@ -716,6 +716,11 @@ textarea:focus {
       z-index: 1;
 }
 
+.to-top img{
+      color: white;
+}
+
+
 .to-top:hover{
       transition: all 0.5s ;
       bottom: 55px;
