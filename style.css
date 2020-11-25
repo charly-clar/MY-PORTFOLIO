@@ -731,6 +731,17 @@ textarea:focus {
       border: 1px solid white;
 }
 
+
+@media(max-width: 768px) {
+      .to-top img {
+            position: fixed;
+            top: 90%;
+            left: 90%;
+            
+      }
+}
+
+
 #button.show{
       opacity: 1;
       visibility: visible;
