@@ -54,7 +54,7 @@ body::-webkit-scrollbar {
 }
 
 @media(max-width: 378px) {
-      anim-typewriter{
+      .anim-typewriter{
             font-size: 20px;
       }
 }
