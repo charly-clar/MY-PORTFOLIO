@@ -721,7 +721,7 @@ textarea:focus {
 
 .to-top:hover{
       transition: all 0.5s ;
-      transform: rotate(360deg);
+      transform: rotate(450deg);
       bottom: 55px;
       border: 1px solid white;
 }
