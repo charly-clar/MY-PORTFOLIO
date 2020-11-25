@@ -53,11 +53,6 @@ body::-webkit-scrollbar {
       blinkTextCussor 500ms steps(40) infinite normal;
 }
 
-@media(max-width: 378px) {
-      .header{
-            font-size: 15px;
-      }
-}
 
 @keyframes typewriter {
       from {
@@ -270,6 +265,13 @@ nav #menu li a:hover {
             font-size: 26px;
       }
 }
+
+@media(max-width: 378px) {
+      .header h1 {
+            font-size: 26px;
+      }
+}
+
 
 /*--------------- scroll down icon animation --------------- */
 .scroll-down {
