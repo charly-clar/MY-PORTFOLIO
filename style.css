@@ -717,10 +717,9 @@ textarea:focus {
 }
 
 .to-top:hover{
-     
       transition: all 0.5s ;
       bottom: 55px;
-      border: 2px solid white;
+      border: 1px solid white;
 }
 
 #button.show{
