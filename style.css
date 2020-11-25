@@ -20,7 +20,6 @@ body::-webkit-scrollbar {
 .smooth-scroll-wrapper {
       width: 100%;
       position: fixed;
-      
       overflow: hidden;
   }
 
@@ -52,6 +51,12 @@ body::-webkit-scrollbar {
 .anim-typewriter {
       animation: typewriter 4s steps(40) 1s 1 normal both,
       blinkTextCussor 500ms steps(40) infinite normal;
+}
+
+@media(max-width: 378px) {
+      anim-typewriter{
+            font-size: 20px;
+      }
 }
 
 @keyframes typewriter {
