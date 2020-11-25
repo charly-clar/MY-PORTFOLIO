@@ -718,11 +718,6 @@ textarea:focus {
 
 
 
-img{
- background-color: #fff;
-}
-
-
 .to-top:hover{
       transition: all 0.5s ;
       bottom: 55px;
