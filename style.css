@@ -54,7 +54,7 @@ body::-webkit-scrollbar {
 }
 
 @media(max-width: 378px) {
-      .header h1 {
+      .header{
             font-size: 15px;
       }
 }
