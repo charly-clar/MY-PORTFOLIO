@@ -507,6 +507,10 @@ h6 {
       text-align: right;
 }
 
+#address a{
+      text-decoration: none;
+}
+
 #media ul {
       list-style: none;
       
