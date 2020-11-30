@@ -613,7 +613,13 @@ img{
 }
 
 .image4{
-      background: url(/3.jpg) no-repeat 50% 70%;
+      background: url(/e-commerce2.jpg) no-repeat 50% 70%;
+      background-size: cover;
+      background-position: center;
+}
+
+.image4resp{
+      background: url(/e-commerce2resp.jpg) no-repeat 50% 70%;
       background-size: cover;
       background-position: center;
 }
