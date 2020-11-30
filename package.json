@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/charly-clar/MY-PORTFOLIO#readme",
   "dependencies": {
-    "jump.js": "^1.0.2"
+    "jump.js": "^1.0.2",
+    "rellax": "^1.12.1"
   }
 }
