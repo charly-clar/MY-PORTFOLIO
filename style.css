@@ -3,7 +3,8 @@ body {
     background: url("RAW.jpg") no-repeat 50% 50%;
     background-position: center;
     background-size: cover;
-    background-size: cover;
+   
+    
     display: flex;
     justify-content: center;
     align-items: center;
