@@ -1,9 +1,14 @@
+
+@font-face{
+    src: url("/monument-extended/TTF/MonumentExtended-Regular.ttf");
+    font-family: "Monument Extended";
+}
+
 body {
     width: 100%;
     background: url("RAW.jpg") no-repeat 50% 50%;
     background-position: center;
-
-    
+    font-family: "Monument Extended";
     display: flex;
     justify-content: center;
     align-items: center;
