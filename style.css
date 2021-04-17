@@ -1,15 +1,36 @@
 
-@font-face{
-    src: url("/monument-extended/TTF/MonumentExtended-Regular.ttf");
-    font-family: "Monument Extended";
-}
+@font-face {
+    font-family: "MonumentExtendedregular";
+    src:  url(/Monument-Extended/OTF/MonumentExtended-Regular.otf);
+  }
+
+  @font-face {
+    font-family: "MonumentExtendedlight";
+    src:  url(/Monument-Extended/OTF/MonumentExtended-Light.otf);
+  }
+  
+  @font-face {
+    font-family: "MonumentExtendedbold";
+    src:  url(/Monument-Extended/OTF/MonumentExtended-Bold.otf);
+  }
+  
+  @font-face {
+    font-family: "MonumentExtendedultrabold";
+    src:  url(/Monument-Extended/OTF/MonumentExtended-Ultrabold.otf);
+  }
+  
+  @font-face {
+    font-family: "MonumentExtendedultralight";
+    src:  url(/Monument-Extended/OTF/MonumentExtended-Ultralight.otf);
+  }
+
 
 body {
     width: 100%;
     background: url("RAW.jpg") no-repeat 50% 50%;
     background-position: center;
-    font-family: "Monument Extended";
     display: flex;
+    font-family: "MonumentExtendedultralight";
     justify-content: center;
     align-items: center;
     height: 100vh;
